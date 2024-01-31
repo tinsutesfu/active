@@ -4,12 +4,11 @@ import NewPost from './Newpost';
 import PostPage from './Postpage';
 import About from './About';
 import Missing from './Missing';
-import { Route, Routes, useNavigate} from 'react-router-dom';
-
-import api from './api/posts';
+import { Route, Routes} from 'react-router-dom';
 import Layout from './Layout';
 import Editpost from './Editpost';
 import { Dataprovider } from './Datacontext';
+import Contactus from './Contactus';
 
 function App() {
   
@@ -33,6 +32,7 @@ function App() {
         </Route>
         
         <Route path="about" element={<About/>} />
+        <Route path="contact" element={<Contactus/>} />
         <Route path="*" element={<Missing/>} />
       </Route>
     </Routes>

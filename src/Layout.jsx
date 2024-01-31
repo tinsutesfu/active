@@ -7,7 +7,7 @@ import Nav from './Nav'
 const Layout = () => {
   return (
     <div className="App">
-      <Header title="tinsu Blog" />
+      <Header title="Tinsu weekly post" />
       <Nav  />
       <Outlet/>
       <Footer/>
