@@ -2,45 +2,24 @@
   "posts": [
     {
       "id": "1",
-      "title": "today",
-      "datetime": "January 30, 2024 3:40:47 AM",
-      "body": "first post"
+      "title": "monday",
+      "datetime": "February 05, 2024 7:33:02 AM",
+      "body": "monday post",
+      "postedby": "tinsu"
     },
     {
       "id": "2",
-      "title": "tomoroow",
-      "datetime": "January 30, 2024 3:41:35 AM",
-      "body": "second post"
+      "title": "number",
+      "datetime": "February 05, 2024 7:33:41 AM",
+      "body": "number post",
+      "postedby": "tinsu"
     },
     {
-      "id": "3",
-      "title": "third",
-      "datetime": "January 30, 2024 3:43:13 AM",
-      "body": "post\n"
-    },
-    {
-      "id": "4",
-      "title": "forth",
-      "datetime": "January 30, 2024 3:43:33 AM",
-      "body": "post"
-    },
-    {
-      "id": "5",
-      "title": "fifth",
-      "datetime": "January 30, 2024 3:44:14 AM",
-      "body": "post"
-    },
-    {
-      "id": "6",
-      "title": "six",
-      "datetime": "January 31, 2024 7:16:55 AM",
-      "body": "post of"
-    },
-    {
-      "id": "61",
-      "title": "thirty",
-      "datetime": "January 31, 2024 7:20:00 AM",
-      "body": "decade"
+      "id": "21",
+      "title": "bible verse of the day",
+      "datetime": "February 05, 2024 8:56:48 AM",
+      "body": "Matthew 11:28\n28 “Come to me, all you who are weary and burdened, and I will give you rest.",
+      "postedby": "tinsu"
     }
   ]
 }

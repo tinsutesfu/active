@@ -12,7 +12,7 @@ export const Dataprovider = ({children}) => {
         const [search, setSearch] = useState('');
         const [searchResults, setSearchResults] = useState([]);
         
-       ;
+       
 
     useEffect(() => {
         const fetchPosts = async () => {
@@ -58,4 +58,4 @@ export const Dataprovider = ({children}) => {
 }
 
 export default Datacontext;
- 
+  

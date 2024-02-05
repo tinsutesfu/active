@@ -28,7 +28,7 @@ body {
 
 .App {
   width: 100%;
- /* max-width: 800px;*/
+  max-width: 800px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,8 @@ body {
   align-items: center;
   border: 1px solid #333;
   box-shadow: 0px 0px 15px gray;
-  background: #ff0000;
+ /* background: #838181;
+  z-index: 100;*/
 }
 
 .Header, .Footer {
@@ -57,7 +58,7 @@ body {
 }
 
 .Footer {
-  padding: 0.75rem;
+  padding: 0.5rem;
   display: grid;
   place-content: center;
 }
@@ -126,18 +127,29 @@ body {
   cursor: pointer;
 }
 
-.Home, .NewPost, .PostPage, .About, .Missing {
+.Home , .NewPost, .PostPage, .About, .Missing {
   width: 100%;
   flex-grow: 1;
   padding: 1rem;
   overflow-y: auto;
-  background-color: #fff;
+  background-color: #f5f2f2;
+  position: relative;
+  opacity: 0.7;
+  
 }
 
+.git{
+  width: 800px;
+  height: 100vh;
+  position: absolute;
+  z-index: -100;
+   
+}
 .post {
   margin-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid lightgray;
+  font: arial;
 }
 
 .Home .post a {
@@ -263,10 +275,11 @@ body {
 
   .searchForm input[type="text"] {
     margin-left: 0.5rem;
+    
   }
 
   .newPostForm textarea {
-    height: 300px;
+    /*height: 300px;*/
   }
 }
 
@@ -277,11 +290,5 @@ body {
   }
 
 }
-.About .social{
-  text-align: center;
-  margin-top: 20px;
-}
-.About .social a{
-  font-size: larger;
-  font-weight: bold;
-}
+
+.About {}

@@ -8,7 +8,7 @@ import { Route, Routes} from 'react-router-dom';
 import Layout from './Layout';
 import Editpost from './Editpost';
 import { Dataprovider } from './Datacontext';
-import Contactus from './Contactus';
+
 
 function App() {
   
@@ -32,7 +32,7 @@ function App() {
         </Route>
         
         <Route path="about" element={<About/>} />
-        <Route path="contact" element={<Contactus/>} />
+        
         <Route path="*" element={<Missing/>} />
       </Route>
     </Routes>
